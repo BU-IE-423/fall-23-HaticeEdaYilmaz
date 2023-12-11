@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>f553098059a74feba35fde52d7555c2c</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="0a3b9087-465d-4879-aca8-e40ec7db73c1" class="cell code"
+data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> glob</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tsa.stattools <span class="im">import</span> adfuller</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> normaltest</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>We used data from 2018 to 2021 as historical data and calculated the
+profit we gained in 2021 by using pairs trading strategy.</p>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>files_2018_to_2021 <span class="op">=</span> [<span class="st">&quot;20180101_20180401_bist30.csv&quot;</span>,<span class="st">&quot;20180402_20180701_bist30.csv&quot;</span>,<span class="st">&quot;20180702_20180930_bist30.csv&quot;</span>,<span class="st">&quot;20181001_20181230_bist30.csv&quot;</span>,<span class="st">&quot;20181231_20190331_bist30.csv&quot;</span>,<span class="st">&quot;20190401_20190630_bist30.csv&quot;</span>,<span class="st">&quot;20190701_20190929_bist30.csv&quot;</span>,<span class="st">&quot;20190930_20191229_bist30.csv&quot;</span>,<span class="st">&quot;20191230_20200329_bist30.csv&quot;</span>,<span class="st">&quot;20200330_20200628_bist30.csv&quot;</span>,<span class="st">&quot;20200629_20200927_bist30.csv&quot;</span>,<span class="st">&quot;20200928_20201227_bist30.csv&quot;</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df_list <span class="op">=</span> []</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files_2018_to_2021:</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="bu">file</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    df_list.append(df)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.concat(df_list, ignore_index<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;timestamp&quot;</span>] <span class="op">=</span> pd.to_datetime(df[<span class="st">&quot;timestamp&quot;</span>])</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>df.set_index(<span class="st">&quot;timestamp&quot;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.sort_values(by<span class="op">=</span><span class="st">&quot;timestamp&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>First, we divided the data into individual stocks and put them into a
+dataframe called "all_df". Since price data was not stationary, to be
+able to analyze the data, we turned it into a stationary time series by
+taking the difference of every consecutive row.</p>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>stock_names <span class="op">=</span> df[<span class="st">&#39;short_name&#39;</span>].unique()</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>all_df <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> stock <span class="kw">in</span> stock_names:</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    stock_data <span class="op">=</span> df.loc[df[<span class="st">&quot;short_name&quot;</span>] <span class="op">==</span> stock].iloc[:,[<span class="dv">0</span>,<span class="dv">1</span>]]</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    all_df[stock] <span class="op">=</span> stock_data[<span class="st">&quot;price&quot;</span>]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>all_df <span class="op">=</span> all_df.diff().dropna()</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>plt.plot(all_df[<span class="st">&#39;AKBNK&#39;</span>])</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Time Series Plot of column_name&#39;</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Time&#39;</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Column Values&#39;</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/e1896053a2068d3c4980bebedd2eec8c0a439c5d.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>After we made sure that the data looks stationary, we calculated the
+correlation coefficient between all stock pairs and created a heatmap to
+show which stocks are highly correlated.</p>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>stock_names <span class="op">=</span> df[<span class="st">&#39;short_name&#39;</span>].unique()</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>all_df <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> stock <span class="kw">in</span> stock_names:</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    stock_data <span class="op">=</span> df.loc[df[<span class="st">&quot;short_name&quot;</span>] <span class="op">==</span> stock].iloc[:,[<span class="dv">0</span>,<span class="dv">1</span>]]</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    all_df[stock] <span class="op">=</span> stock_data[<span class="st">&quot;price&quot;</span>]</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>all_df <span class="op">=</span> all_df.interpolate().diff().dropna()</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>corr <span class="op">=</span> all_df.corr()</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>matrix <span class="op">=</span> np.triu(corr)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">15</span>), dpi<span class="op">=</span><span class="dv">150</span>) </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr,mask <span class="op">=</span> matrix, vmin <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>, vmax <span class="op">=</span> <span class="dv">1</span>, linewidth <span class="op">=</span> <span class="fl">0.5</span>,cmap <span class="op">=</span><span class="st">&quot;PuOr&quot;</span>,annot <span class="op">=</span> <span class="va">True</span>,annot_kws <span class="op">=</span>{<span class="st">&#39;fontweight&#39;</span>:<span class="st">&#39;bold&#39;</span>})</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>&lt;Axes: &gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/88aca4419634c1768e6df4e074f34736366bc5ff.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>We choose "AKBNK" and "GARAN" as our first stock pair due to their
+high correlation. We fit a regression line between these two stocks and
+calculated the residuals.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> all_df[<span class="st">&quot;AKBNK&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>Y <span class="op">=</span> all_df[<span class="st">&quot;GARAN&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> LinearRegression()</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>lr.fit(X,Y)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>Y_predictions <span class="op">=</span> lr.predict(X)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>residuals <span class="op">=</span> Y <span class="op">-</span> Y_predictions</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>mean <span class="op">=</span> residuals.mean()</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>std <span class="op">=</span> residuals.std()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>We checked if the residuals satisfy the constant variance assumption.
+Variance of the residuals remained constant through predicted
+values.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(Y_predictions, residuals, s<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">0</span>, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)  </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Fitted Values&#39;</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Residuals&#39;</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Residuals vs. Fitted Values Plot&#39;</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/1a623658c3ef9263c7b42591eb62fff71a1c00d2.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Then, we checked the nornality assumption of the residuals by
+plotting a histogram. Residuals seemed to approximately follow a normal
+distribution.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>plt.hist(residuals, bins<span class="op">=</span><span class="dv">50</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Histogram&#39;</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Values&#39;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Frequency&#39;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/f67b01c96295104da3d12d771f66a13b5e84bf62.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Then, we drew a control chart of the residuals from 2018 to 2021.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>LCL <span class="op">=</span> mean <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>std</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>UCL <span class="op">=</span> mean <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>std</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>plt.scatter(all_df.index,residuals,marker<span class="op">=</span><span class="st">&quot;o&quot;</span>,s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>plt.axhline(y <span class="op">=</span> mean, color <span class="op">=</span> <span class="st">&#39;g&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>plt.axhline(y <span class="op">=</span> UCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)<span class="co">#</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>plt.axhline(y <span class="op">=</span> LCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;residuals&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>Text(0, 0.5, &#39;residuals&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/230e602eaa924bc2e30fa476e33e3f0b56a1d78f.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Since there were out-of-control points, we omitted those points and
+redrew the control chart with new control limits and the remaining
+points.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals <span class="op">=</span> residuals[(residuals <span class="op">&gt;=</span> LCL) <span class="op">&amp;</span> (residuals <span class="op">&lt;=</span> UCL)]</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps <span class="op">=</span> all_df[(residuals <span class="op">&gt;=</span> LCL) <span class="op">&amp;</span> (residuals <span class="op">&lt;=</span> UCL)].index</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>new_mean <span class="op">=</span> np.mean(remaining_residuals)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>new_std <span class="op">=</span> np.std(remaining_residuals)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>new_CL <span class="op">=</span> new_mean</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>new_UCL <span class="op">=</span> new_mean <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>new_LCL <span class="op">=</span> new_mean <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps, remaining_residuals, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/f783cbe9d2e0fca86c29d0d11039f6895c3d516b.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>We continued doing this until there were no out-of-control points. In
+other words, until the process was in control.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals_2 <span class="op">=</span> remaining_residuals[(remaining_residuals <span class="op">&gt;=</span> new_LCL) <span class="op">&amp;</span> (remaining_residuals <span class="op">&lt;=</span> new_UCL)]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps_2 <span class="op">=</span> remaining_timestamps[(remaining_residuals <span class="op">&gt;=</span> new_LCL) <span class="op">&amp;</span> (remaining_residuals <span class="op">&lt;=</span> new_UCL)]</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>new_mean_2 <span class="op">=</span> np.mean(remaining_residuals_2)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>new_std_2 <span class="op">=</span> np.std(remaining_residuals_2)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>new_CL_2 <span class="op">=</span> new_mean_2</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>new_UCL_2 <span class="op">=</span> new_mean_2 <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std_2</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>new_LCL_2 <span class="op">=</span> new_mean_2 <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std_2</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps_2, remaining_residuals_2, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL_2, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL_2, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL_2, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/696eac67a0c583aba719e27bd296c7d8a28abd63.png" /></p>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals_3 <span class="op">=</span> remaining_residuals_2[(remaining_residuals_2 <span class="op">&gt;=</span> new_LCL_2) <span class="op">&amp;</span> (remaining_residuals_2 <span class="op">&lt;=</span> new_UCL_2)]</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps_3 <span class="op">=</span> remaining_timestamps_2[(remaining_residuals_2 <span class="op">&gt;=</span> new_LCL_2) <span class="op">&amp;</span> (remaining_residuals_2 <span class="op">&lt;=</span> new_UCL_2)]</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>new_mean_3 <span class="op">=</span> np.mean(remaining_residuals_3)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>new_std_3 <span class="op">=</span> np.std(remaining_residuals_3)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>new_CL_3 <span class="op">=</span> new_mean_3</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>new_UCL_3 <span class="op">=</span> new_mean_3 <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std_3</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>new_LCL_3 <span class="op">=</span> new_mean_3 <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std_3</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps_3, remaining_residuals_3, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL_3, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL_3, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL_3, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/114b5ae81cdcd1746d5c80f8dcf1dc50c6cc5b44.png" /></p>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals_4 <span class="op">=</span> remaining_residuals_3[(remaining_residuals_3 <span class="op">&gt;=</span> new_LCL_3) <span class="op">&amp;</span> (remaining_residuals_3 <span class="op">&lt;=</span> new_UCL_3)]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps_4 <span class="op">=</span> remaining_timestamps_3[(remaining_residuals_3 <span class="op">&gt;=</span> new_LCL_3) <span class="op">&amp;</span> (remaining_residuals_3 <span class="op">&lt;=</span> new_UCL_3)]</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>new_mean_4 <span class="op">=</span> np.mean(remaining_residuals_4)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>new_std_4 <span class="op">=</span> np.std(remaining_residuals_4)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>new_CL_4 <span class="op">=</span> new_mean_4</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>new_UCL_4 <span class="op">=</span> new_mean_4 <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std_4</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>new_LCL_4 <span class="op">=</span> new_mean_4 <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std_4</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps_4, remaining_residuals_4, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL_4, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL_4, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL_4, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/a0507db091a64b07e7bccb8a006e61dcf983d4be.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>After we made sure that we drew the control chart of the in-control
+process from the historical data, we updated out control limits, and
+fitted a linear regression line to the 2021 data. We plotted the
+residuals of the 2021 data onto the control chart of the in-control
+process.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>CL <span class="op">=</span>new_CL_4</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>UCL <span class="op">=</span> new_UCL_4</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>LCL <span class="op">=</span> new_LCL_4</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>files_2021 <span class="op">=</span> [<span class="st">&quot;20201228_20210328_bist30.csv&quot;</span>,<span class="st">&quot;20210329_20210627_bist30.csv&quot;</span>,<span class="st">&quot;20210628_20210926_bist30.csv&quot;</span>,<span class="st">&quot;20210927_20211226_bist30.csv&quot;</span>]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>df_2021_list <span class="op">=</span> []</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files_2021:</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="bu">file</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    df_2021_list.append(df)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>df_2021 <span class="op">=</span> pd.concat(df_2021_list, ignore_index<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>df_2021[<span class="st">&quot;timestamp&quot;</span>] <span class="op">=</span> pd.to_datetime(df_2021[<span class="st">&quot;timestamp&quot;</span>])</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>df_2021.set_index(<span class="st">&quot;timestamp&quot;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>df_2021 <span class="op">=</span> df_2021.sort_values(by<span class="op">=</span><span class="st">&quot;timestamp&quot;</span>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>stock_names <span class="op">=</span> df_2021[<span class="st">&#39;short_name&#39;</span>].unique()</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>all_df_2021 <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> stock <span class="kw">in</span> stock_names:</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>    stock_data <span class="op">=</span> df_2021.loc[df_2021[<span class="st">&quot;short_name&quot;</span>] <span class="op">==</span> stock].iloc[:,[<span class="dv">0</span>,<span class="dv">1</span>]]</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    all_df_2021[stock] <span class="op">=</span> stock_data[<span class="st">&quot;price&quot;</span>]</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>all_df_2021_diff <span class="op">=</span> all_df_2021.diff().dropna()</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>akbnk_2021 <span class="op">=</span> all_df_2021_diff[<span class="st">&quot;AKBNK&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>garan_2021 <span class="op">=</span> all_df_2021_diff[<span class="st">&quot;GARAN&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> LinearRegression()</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>lr.fit(akbnk_2021,garan_2021)</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>garan_predictions <span class="op">=</span> lr.predict(akbnk_2021)</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>residuals_2021 <span class="op">=</span> garan_2021 <span class="op">-</span> garan_predictions</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>plt.scatter(all_df_2021_diff.index,residuals_2021,marker<span class="op">=</span><span class="st">&quot;o&quot;</span>,s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>plt.axhline(CL, color <span class="op">=</span> <span class="st">&#39;g&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>plt.axhline(UCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)<span class="co">#</span></span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>plt.axhline(LCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;residuals&quot;</span>)</span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output execute_result" data-execution_count="39">
+<pre><code>Text(0, 0.5, &#39;residuals&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/9dd9ef6af0cbb2bc0bc5d59a3f5c1a01fa3f65a6.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Lastly, we calculated the return of the pairs trading. Then, we did
+the exact same steps for the second highly correlated pair we chose,
+"KOZAA" and "KOZAL".</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>prices <span class="op">=</span> all_df_2021[[<span class="st">&quot;AKBNK&quot;</span>,<span class="st">&quot;GARAN&quot;</span>]]</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>signals <span class="op">=</span> np.where(residuals_2021 <span class="op">&lt;</span> LCL, <span class="dv">1</span>, np.where(residuals_2021 <span class="op">&gt;</span> UCL, <span class="op">-</span><span class="dv">1</span>, <span class="dv">0</span>))</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>returns <span class="op">=</span> np.zeros_like(signals, dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">len</span>(signals)):</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    returns[i] <span class="op">=</span> signals[i] <span class="op">*</span> (prices.iloc[i<span class="op">-</span><span class="dv">1</span>][<span class="st">&quot;AKBNK&quot;</span>] <span class="op">-</span> prices.iloc[i<span class="op">-</span><span class="dv">1</span>][<span class="st">&quot;GARAN&quot;</span>])</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(np.<span class="bu">sum</span>(returns))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>30.039399999999993
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> all_df[<span class="st">&quot;KOZAA&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>Y <span class="op">=</span> all_df[<span class="st">&quot;KOZAL&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> LinearRegression()</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>lr.fit(X,Y)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>Y_predictions <span class="op">=</span> lr.predict(X)</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>residuals <span class="op">=</span> Y <span class="op">-</span> Y_predictions</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>mean <span class="op">=</span> residuals.mean()</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>std <span class="op">=</span> residuals.std()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(Y_predictions, residuals, s<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>plt.axhline(y<span class="op">=</span><span class="dv">0</span>, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)  </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Fitted Values&#39;</span>)</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Residuals&#39;</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Residuals vs. Fitted Values Plot&#39;</span>)</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/dd1653ddd2b60cd0c93ba5c7796ba97f439160e6.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>plt.hist(residuals, bins<span class="op">=</span><span class="dv">50</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Histogram&#39;</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Values&#39;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Frequency&#39;</span>)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/a92a4c46cf4ba8b39d0c8f09217e292fec01107a.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>LCL <span class="op">=</span> mean <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>std</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>UCL <span class="op">=</span> mean <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>std</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>plt.scatter(all_df.index,residuals,marker<span class="op">=</span><span class="st">&quot;o&quot;</span>,s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>plt.axhline(y <span class="op">=</span> mean, color <span class="op">=</span> <span class="st">&#39;g&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>plt.axhline(y <span class="op">=</span> UCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)<span class="co">#</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>plt.axhline(y <span class="op">=</span> LCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;residuals&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>Text(0, 0.5, &#39;residuals&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/72466176972d09fd362822036ae5c3bfbf70a9f9.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals <span class="op">=</span> residuals[(residuals <span class="op">&gt;=</span> LCL) <span class="op">&amp;</span> (residuals <span class="op">&lt;=</span> UCL)]</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps <span class="op">=</span> all_df[(residuals <span class="op">&gt;=</span> LCL) <span class="op">&amp;</span> (residuals <span class="op">&lt;=</span> UCL)].index</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>new_mean <span class="op">=</span> np.mean(remaining_residuals)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>new_std <span class="op">=</span> np.std(remaining_residuals)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>new_CL <span class="op">=</span> new_mean</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>new_UCL <span class="op">=</span> new_mean <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>new_LCL <span class="op">=</span> new_mean <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps, remaining_residuals, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/a262374c1abc94b1b00ad8948cccbd1d34bf5978.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals_2 <span class="op">=</span> remaining_residuals[(remaining_residuals <span class="op">&gt;=</span> new_LCL) <span class="op">&amp;</span> (remaining_residuals <span class="op">&lt;=</span> new_UCL)]</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps_2 <span class="op">=</span> remaining_timestamps[(remaining_residuals <span class="op">&gt;=</span> new_LCL) <span class="op">&amp;</span> (remaining_residuals <span class="op">&lt;=</span> new_UCL)]</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>new_mean_2 <span class="op">=</span> np.mean(remaining_residuals_2)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>new_std_2 <span class="op">=</span> np.std(remaining_residuals_2)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>new_CL_2 <span class="op">=</span> new_mean_2</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>new_UCL_2 <span class="op">=</span> new_mean_2 <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std_2</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>new_LCL_2 <span class="op">=</span> new_mean_2 <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std_2</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps_2, remaining_residuals_2, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL_2, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL_2, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL_2, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/0e7fb2be8bcf604f24336e388e383c108bdf48b6.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals_3 <span class="op">=</span> remaining_residuals_2[(remaining_residuals_2 <span class="op">&gt;=</span> new_LCL_2) <span class="op">&amp;</span> (remaining_residuals_2 <span class="op">&lt;=</span> new_UCL_2)]</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps_3 <span class="op">=</span> remaining_timestamps_2[(remaining_residuals_2 <span class="op">&gt;=</span> new_LCL_2) <span class="op">&amp;</span> (remaining_residuals_2 <span class="op">&lt;=</span> new_UCL_2)]</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>new_mean_3 <span class="op">=</span> np.mean(remaining_residuals_3)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>new_std_3 <span class="op">=</span> np.std(remaining_residuals_3)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>new_CL_3 <span class="op">=</span> new_mean_3</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>new_UCL_3 <span class="op">=</span> new_mean_3 <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std_3</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>new_LCL_3 <span class="op">=</span> new_mean_3 <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std_3</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps_3, remaining_residuals_3, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL_3, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL_3, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL_3, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/fa9dc6932e2caeccf7032de95b6eb5d8c662902a.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>remaining_residuals_4 <span class="op">=</span> remaining_residuals_3[(remaining_residuals_3 <span class="op">&gt;=</span> new_LCL_3) <span class="op">&amp;</span> (remaining_residuals_3 <span class="op">&lt;=</span> new_UCL_3)]</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>remaining_timestamps_4 <span class="op">=</span> remaining_timestamps_3[(remaining_residuals_3 <span class="op">&gt;=</span> new_LCL_3) <span class="op">&amp;</span> (remaining_residuals_3 <span class="op">&lt;=</span> new_UCL_3)]</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>new_mean_4 <span class="op">=</span> np.mean(remaining_residuals_4)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>new_std_4 <span class="op">=</span> np.std(remaining_residuals_4)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>new_CL_4 <span class="op">=</span> new_mean_4</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>new_UCL_4 <span class="op">=</span> new_mean_4 <span class="op">+</span> <span class="dv">3</span><span class="op">*</span>new_std_4</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>new_LCL_4 <span class="op">=</span> new_mean_4 <span class="op">-</span> <span class="dv">3</span><span class="op">*</span>new_std_4</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>plt.scatter(remaining_timestamps_4, remaining_residuals_4, marker<span class="op">=</span><span class="st">&quot;o&quot;</span>, s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_CL_4, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_UCL_4, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>plt.axhline(new_LCL_4, color<span class="op">=</span><span class="st">&#39;r&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Residuals&quot;</span>)</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/bdabed75bb3ffccd19642a19dc690916a87c46ed.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>CL <span class="op">=</span>new_CL_4</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>UCL <span class="op">=</span> new_UCL_4</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>LCL <span class="op">=</span> new_LCL_4</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>kozaa_2021 <span class="op">=</span> all_df_2021_diff[<span class="st">&quot;KOZAA&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>kozal_2021 <span class="op">=</span> all_df_2021_diff[<span class="st">&quot;KOZAL&quot;</span>].values.reshape(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> LinearRegression()</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>lr.fit(kozaa_2021,kozal_2021)</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>kozal_predictions <span class="op">=</span> lr.predict(kozaa_2021)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>residuals_2021 <span class="op">=</span> kozal_2021 <span class="op">-</span> kozal_predictions</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>plt.scatter(all_df_2021_diff.index,residuals_2021,marker<span class="op">=</span><span class="st">&quot;o&quot;</span>,s<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>plt.gcf().autofmt_xdate()</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>plt.axhline(CL, color <span class="op">=</span> <span class="st">&#39;g&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>plt.axhline(UCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)<span class="co">#</span></span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>plt.axhline(LCL, color <span class="op">=</span> <span class="st">&#39;r&#39;</span>, linestyle <span class="op">=</span> <span class="st">&#39;--&#39;</span>)</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Timestamp&quot;</span>)</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;residuals&quot;</span>)</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<pre><code>Text(0, 0.5, &#39;residuals&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_48a3f49326ea44029447398b2b2eb618/73f46e350029f660c22e3e08cd8c5f2878b78a52.png" /></p>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>prices <span class="op">=</span> all_df_2021[[<span class="st">&quot;KOZAA&quot;</span>,<span class="st">&quot;KOZAL&quot;</span>]]</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>signals <span class="op">=</span> np.where(residuals_2021 <span class="op">&lt;</span> LCL, <span class="dv">1</span>, np.where(residuals_2021 <span class="op">&gt;</span> UCL, <span class="op">-</span><span class="dv">1</span>, <span class="dv">0</span>))</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>returns <span class="op">=</span> np.zeros_like(signals, dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">len</span>(signals)):</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    returns[i] <span class="op">=</span> signals[i] <span class="op">*</span> (prices.iloc[i<span class="op">-</span><span class="dv">1</span>][<span class="st">&quot;KOZAA&quot;</span>] <span class="op">-</span> prices.iloc[i<span class="op">-</span><span class="dv">1</span>][<span class="st">&quot;KOZAL&quot;</span>])</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(np.<span class="bu">sum</span>(returns))</span></code></pre></div>
+</div>
+</body>
+</html>
